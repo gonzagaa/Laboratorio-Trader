@@ -189,3 +189,9 @@
         width: 100%;
     }
 }
+
+@media (min-width: 1080px) {
+    section#garanta .wrapper {
+        padding-inline: 10%;
+    }
+}

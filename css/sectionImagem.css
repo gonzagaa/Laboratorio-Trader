@@ -102,3 +102,10 @@
         top: -50%;
     }
 }
+
+@media (min-width: 1700px) {
+     section#imagem img.bg {
+        width: 50%;
+        right: 0%;
+     }
+}

@@ -100,7 +100,7 @@ p.obs {
         transform: translateX(-100%);
     }
     to {
-        transform: translateX(-40%); /* 80% da barra preenchida */
+        transform: translateX(-87%); /* 80% da barra preenchida */
     }
 }
 @keyframes bar {
