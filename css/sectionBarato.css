@@ -9,6 +9,13 @@
 
 #barato header p {
     font-size: 1.3rem;
+
+}
+
+#barato header p span {
+    font-weight: 700;
+    color: #ffffff;
+
 }
 
 #barato header p.obs {

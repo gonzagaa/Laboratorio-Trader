@@ -70,6 +70,11 @@
 
 #porque .card p {
     font-size: 1.3rem;
+    color: #dbdbdb;
+}
+
+#porque .card p span {
+    font-weight: 700;
     color: #fff;
 }
 
