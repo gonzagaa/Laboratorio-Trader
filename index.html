@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laboratório Trader - Zero7</title>
-    <link rel="shortcut icon" href="./assets/icon lancamento.webp" type="image/x-icon">
 
     <link href="https://fonts.cdnfonts.com/css/ncs-radhiumz" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/tt-fors-trial" rel="stylesheet">     
@@ -453,7 +452,7 @@
               </div>
             </div>
 
-            <a target="_blank" href="https://app.4st.com.br/checkout/dkb0sEh6FE"><button class="button">QUERO MINHA VAGA</button></a>
+            <a class="link4Selet" target="_blank" href="https://app.4st.com.br/checkout/dkb0sEh6FE"><button class="button">QUERO MINHA VAGA</button></a>
 
             <div class="barra">
                 <div class="progress"><div class="bar"></div></div>
@@ -575,8 +574,28 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KCJQPMC"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <div role="main" id="corrida-zero7-captacao-72bdbbbbbb9d8f539277"></div>
-    <script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></script> 
+     <script>
+    let prefix = ["https://app.4st.com.br"];
+
+    function getParams() {
+        let t = "",
+            e = window.top.location.href,
+            r = new URL(e);
+        if (null != r) {
+            let a = r.searchParams.get("utm_source"),
+                n = r.searchParams.get("utm_medium"),
+                o = r.searchParams.get("utm_campaign"),
+                m = r.searchParams.get("utm_term"),
+                c = r.searchParams.get("utm_content"); - 1 !== e.indexOf("?") && (t = `&sck=${a}|${n}|${o}|${m}|${c}`), console.log(t)
+        }
+        return t
+    }! function() {
+        var t = new URLSearchParams(window.location.search);
+        t.toString() && document.querySelectorAll("a").forEach(function(e) {
+            for (let r = 0; r < prefix.length; r++) - 1 !== e.href.indexOf(prefix[r]) && (-1 === e.href.indexOf("?") ? e.href += "?" + t.toString() + getParams() : e.href += "&" + t.toString() + getParams())
+        })
+    }();
+    </script>
     <script src="https://unpkg.com/lenis@1.1.14/dist/lenis.min.js"></script>
     <script>
       // Initialize Lenis with options
