@@ -117,3 +117,103 @@ p.obs {
         width: 100%;
     }
 }
+
+@keyframes progress-13 {
+  from { transform: translateX(-100%); }
+  to   { transform: translateX(-87%); }
+}
+
+@keyframes progress-22 {
+  from { transform: translateX(-100%); }
+  to   { transform: translateX(-78.3%); }
+}
+
+@keyframes progress-30 {
+  from { transform: translateX(-100%); }
+  to   { transform: translateX(-69.6%); }
+}
+
+@keyframes progress-39 {
+  from { transform: translateX(-100%); }
+  to   { transform: translateX(-60.9%); }
+}
+
+@keyframes progress-48 {
+  from { transform: translateX(-100%); }
+  to   { transform: translateX(-52.2%); }
+}
+
+@keyframes progress-56 {
+  from { transform: translateX(-100%); }
+  to   { transform: translateX(-43.5%); }
+}
+
+@keyframes progress-65 {
+  from { transform: translateX(-100%); }
+  to   { transform: translateX(-34.8%); }
+}
+
+@keyframes progress-74 {
+  from { transform: translateX(-100%); }
+  to   { transform: translateX(-26.1%); }
+}
+
+@keyframes progress-83 {
+  from { transform: translateX(-100%); }
+  to   { transform: translateX(-17.4%); }
+}
+
+@keyframes progress-91 {
+  from { transform: translateX(-100%); }
+  to   { transform: translateX(-8.7%); }
+}
+
+@keyframes progress-100 {
+  from { transform: translateX(-100%); }
+  to   { transform: translateX(0%); }
+}
+
+.bar {
+  animation: progress-13 2s ease forwards; /* inicial: 13% */
+}
+
+.bar.p22 {
+  animation: progress-22 2s ease forwards;
+}
+
+.bar.p30 {
+  animation: progress-30 2s ease forwards;
+}
+
+.bar.p39 {
+  animation: progress-39 2s ease forwards;
+}
+
+.bar.p48 {
+  animation: progress-48 2s ease forwards;
+}
+
+.bar.p56 {
+  animation: progress-56 2s ease forwards;
+}
+
+.bar.p65 {
+  animation: progress-65 2s ease forwards;
+}
+
+.bar.p74 {
+  animation: progress-74 2s ease forwards;
+}
+
+.bar.p83 {
+  animation: progress-83 2s ease forwards;
+}
+
+.bar.p91 {
+  animation: progress-91 2s ease forwards;
+}
+
+.bar.p100 {
+  animation: progress-100 2s ease forwards;
+}
+

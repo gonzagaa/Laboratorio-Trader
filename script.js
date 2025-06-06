@@ -118,3 +118,23 @@ if (larguraDaTela < 800) {
       videoContainer.innerHTML = "";
     }
   });
+
+const novaPorcentagem = 13;
+const classePorcentagem = 'p22'; // arredondado para o nome da classe
+
+// Atualiza todas as barras
+const bars = document.querySelectorAll('.bar');
+bars.forEach(bar => {
+  bar.classList.remove('p13', 'p22', 'p30', 'p39', 'p48', 'p56', 'p65', 'p74', 'p83', 'p91', 'p100');
+  bar.classList.add(classePorcentagem);
+});
+
+// Atualiza todos os textos da barra
+const textos = document.querySelectorAll('.barra .obs');
+textos.forEach(texto => {
+  const span = texto.querySelector('span');
+  if (span) {
+    texto.innerHTML = `${span.outerHTML} ${novaPorcentagem}% dos ingressos vendidos`;
+  }
+});
+
