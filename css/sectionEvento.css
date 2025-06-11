@@ -24,7 +24,6 @@
              -10px -10px 30px #032b443a;
 }
 
-
 #evento .card h3 {
     font-size: 1.8rem;
     color: #fff;
@@ -34,7 +33,7 @@
     padding-inline: 2%;
 }
 
-#evento .card:nth-child(3) h3 {
+#evento .card:nth-child(2) h3 {
     padding-inline: 5%;
 }
 
@@ -102,13 +101,36 @@
 
     section#evento .content .cards .card {
         padding-block: 8rem;
+        height: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     section#evento .card h3 {
         font-size: 1.2rem;
     }
 
-    section#evento .card h3 span {
-        font-size: 1.3rem;
-    } 
+    .v2 section#evento .card h3 {
+        font-family: var(--tts);
+        font-size: 1.6rem;
+    }
+
+    .v2 section#evento .card h3 span {
+        font-family: var(--tts);
+        font-size: 1.6rem;
+        background: transparent;
+        padding: 0;
+        border-radius: 0;
+        text-shadow: none;
+    }
+
+    .v2 section#evento .content .cards .card.tres h3 {
+        font-size: 1.2rem;
+    }
+
+    .v2 section#evento .content .cards .card.tres h3 span {
+        font-size: 1.2rem;
+    }
 }

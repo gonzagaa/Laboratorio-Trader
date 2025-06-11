@@ -59,6 +59,10 @@
     font-weight: 500;
   }
 
+  .v2 #home h1 {
+    font-size: 2rem;
+  }
+
   #home .foot {
     width: 100%;
   }
@@ -272,6 +276,10 @@
       line-height: 1.1;
       color: #f8fffd;
       margin-bottom: 0;
+    }
+
+    .v2 header#home .content h1 {
+      font-size: 4.5rem;
     }
 
     header#home .content h1 span {

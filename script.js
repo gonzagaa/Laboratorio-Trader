@@ -119,8 +119,8 @@ if (larguraDaTela < 800) {
     }
   });
 
-const novaPorcentagem = 83;
-const classePorcentagem = 'p83'; // arredondado para o nome da classe
+const novaPorcentagem = 91;
+const classePorcentagem = 'p91'; // arredondado para o nome da classe
 
 // Atualiza todas as barras
 const bars = document.querySelectorAll('.bar');
