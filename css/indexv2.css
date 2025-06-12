@@ -3,11 +3,11 @@
 @import './sectionTarja.css';
 @import './sectionTopics.css';
 @import './sectionEvento.css';
-@import './sectionDuro.css';
 @import './sectionPorque.css';
 @import './sectionTextos.css';
-@import './sectionImagem.css';
 @import './sectionNumeros.css';
+@import './sectionDuro.css'; 
+
 @import './sectionTarjaDois.css';
 @import './sectionProgramacao.css';
 @import './sectionTabelas.css';
