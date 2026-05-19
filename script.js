@@ -119,8 +119,8 @@ if (larguraDaTela < 800) {
     }
   });
 
-const novaPorcentagem = 30;
-const classePorcentagem = 'p30'; // arredondado para o nome da classe
+const novaPorcentagem = 70;
+const classePorcentagem = 'p74'; // arredondado para o nome da classe
 
 // Atualiza todas as barras
 const bars = document.querySelectorAll('.bar');
@@ -134,7 +134,7 @@ const textos = document.querySelectorAll('.barra .obs');
 textos.forEach(texto => {
   const span = texto.querySelector('span');
   if (span) {
-    texto.innerHTML = `${span.outerHTML} ${novaPorcentagem}% dos ingressos vendidos`;
+    texto.innerHTML = `${novaPorcentagem}% das vagas já preenchidas`;
   }
 });
 
